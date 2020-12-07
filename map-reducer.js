@@ -120,7 +120,7 @@ const exportExcel = (finalData) => {
     const ws = wb.addWorksheet('Worksheet Name')
     ws.cell(1, 1).string('Large (>10 lettres)')
     ws.cell(1, 2).string('Medium (entre 5 et 10 lettres)')
-    ws.cell(1, 3).string('Small (<5 lettres')
+    ws.cell(1, 3).string('Small (<5 lettres)')
     ws.cell(2, 1).number(finalData[0][1])
     ws.cell(2, 2).number(finalData[1][1])
     ws.cell(2, 3).number(finalData[2][1])
