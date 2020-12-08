@@ -62,7 +62,7 @@ const shuffling = (batch) => {
 
 // REDUCING
 // return
-// [ [1, 5], [2, 15], [3, 25],, [1, 5], [2, 15], [3, 25], [1, 5], [2, 15], [3, 25], ...]
+// [ [1, 5], [2, 15], [3, 25], [1, 5], [2, 15], [3, 25], [1, 5], [2, 15], [3, 25], ...]
 
 const reducing = (batch) => {
     const shuffledData = shuffling(batch)
